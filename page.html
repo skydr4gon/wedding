@@ -46,10 +46,8 @@
 
     <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
       <div class="container">
-        <a class="navbar-brand" href="#home">Rovi Wedding</a>
-        <button
-          class="navbar-toggler border-0"
-          type="button"
+        <a class="navbar-brand" href="#">Rovi</a>
+        <button class="navbar-toggler border-0" type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar"
@@ -57,22 +55,14 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel" href="#home">
-              Rovi Wedding
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Rovi
             </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <div class="navbar-nav ms-auto">
@@ -626,15 +616,15 @@
       });
     </script>
     <script>
-      const stickyTop = document.querySelector(".sticky-top");
-      const offcanvas = document.querySelector(".offcanvas");
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
 
-      offcanvas.addEventListener("show.bs.offcanvas", function () {
-        stickyTop.style.overflow = "visible";
+      offcanvas.addEventListener('show.bs.offcanvas', function () {
+        stickyTop.style.overflow = 'visible';
       });
 
-      offcanvas.addEventListener("hidden.bs.offcanvas", function () {
-        stickyTop.style.overflow = "hidden";
+      offcanvas.addEventListener('hidden.bs.offcanvas', function () {
+        stickyTop.style.overflow = 'hidden';
       });
     </script>
     <script>
